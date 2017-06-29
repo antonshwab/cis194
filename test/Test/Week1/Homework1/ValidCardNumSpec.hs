@@ -27,10 +27,9 @@ spec = do
 
   describe "Exercise 2. Double every other digit." $ do
     it "doubleEveryOther [8,7,6,5]" $ do
-      doubleEveryOther [8,7,6,5] `shouldBe` [16,7,12,5]
+      doubleEveryOther [5, 6, 7, 8] `shouldBe` [5, 12, 7, 16]
     it "doubleEveryOther [1,2,3]" $ do
       doubleEveryOther [1,2,3] `shouldBe` [1,4,3]
-
 
   describe "Exercies 3. mix of one-digit and two-digit numbers." $ do
     it "sumDigits [16,7,12,5] = 1 + 6 + 7 + 1 + 2 + 5 = 22" $ do
