@@ -1,0 +1,11 @@
+language: haskell
+install:
+  - stack --no-terminal --install-ghc test --only-dependencies
+
+script:
+  - stack --no-terminal --no-system-ghc test
+
+cache:
+  directories:
+    - $HOME/.stack
+    - .stack-work
