@@ -15,9 +15,8 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Lib
-                     , Week1.Homework1.ValidCardNum
-                     , Week1.Homework1.Hanoi
+  exposed-modules:     Homework.Week01.Assignment
+                     -- , Homework.Week02.Assignment
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
